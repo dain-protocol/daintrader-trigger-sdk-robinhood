@@ -1,6 +1,6 @@
 import { assertEquals } from "jsr:@std/assert";
 import { robinhood } from "../src/util/rhood.ts";
-import { OrderPayload } from "npm:robinhood-crypto@0.0.5";
+import { OrderPayload } from "npm:robinhood-crypto@0.0.6";
 
 Deno.test("Robinhood API - Basic Functionality", async (t) => {
   await t.step("should get account info", async () => {

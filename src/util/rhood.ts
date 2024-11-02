@@ -1,4 +1,4 @@
-import { RobinhoodCrypto } from "npm:robinhood-crypto@0.0.5";
+import { RobinhoodCrypto } from "npm:robinhood-crypto@0.0.6";
 import bs58 from "npm:bs58";
 
 import { loadEnv } from "./env.ts";
