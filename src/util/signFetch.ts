@@ -1,7 +1,7 @@
 import { ed25519 } from "npm:@noble/curves/ed25519";
 
 import base58 from "npm:bs58";
-import { Keypair } from "https://esm.sh/@solana/web3.js";
+import { Keypair } from "https://esm.sh/@solana/web3.js@1.91.8";
 import { loadEnv } from "./env.ts";
 const env = await loadEnv();
 
