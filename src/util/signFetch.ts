@@ -1,14 +1,14 @@
 import { ed25519 } from "npm:@noble/curves/ed25519";
 
 import base58 from "npm:bs58";
-import { Keypair } from "https://esm.sh/@solana/web3.js@1.91.8";
+import { Keypair } from "https://esm.sh/@solana/web3.js@1.95.4";
 import { loadEnv } from "./env.ts";
 const env = await loadEnv();
 
 const triggerAddress = env("TRIGGER_ADDRESS");
 const triggerKeypair = Keypair.fromSecretKey(
   base58.decode(env("TRIGGER_ADDRESS_PRIVATE_KEY") as string),
-);
+)
 
 function orderedJsonStringify(obj: any): string {
   if (obj === undefined) {

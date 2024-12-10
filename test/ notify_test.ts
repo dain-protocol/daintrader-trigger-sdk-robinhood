@@ -2,7 +2,7 @@ import { assertEquals } from "jsr:@std/assert";
 
 import { sendNotification } from "../src/notifications.ts";
 import { loadEnv } from "../src/util/env.ts";
-import { Keypair } from "https://esm.sh/@solana/web3.js@1.91.8";
+import { Keypair } from "https://esm.sh/@solana/web3.js@1.95.4";
 import bs58 from "npm:bs58";
 const env = await loadEnv();
 
